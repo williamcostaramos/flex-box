@@ -155,7 +155,7 @@ html{
 }
 .contact-text-items h1{
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	color:yellow;
 	text-transform: uppercase;
 }
@@ -184,6 +184,14 @@ footer p{
 	text-align: center;
 	padding: 20px;
 	color: #fff;
+}
+@media(max-width: 480px){
+	.main-content{
+		flex-direction: column;
+	}
+	.contact-text-items input[type="submit"],.btn{
+		width: 100%;
+	}
 }
 
 

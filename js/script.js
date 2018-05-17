@@ -11,9 +11,7 @@ function maquinaEscrever(elemento){
 
 }
 const titulo= document.querySelector(".texto");
-
-const subtitulo= document.querySelector(".tagline");
- maquinaEscrever(titulo);
+maquinaEscrever(titulo);
 
 
  
