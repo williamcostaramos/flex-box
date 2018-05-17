@@ -161,7 +161,7 @@ html{
 	color:yellow;
 	text-transform: uppercase;
 }
-.contact-text-items input[type="text"],textarea{
+.contact-text-items input[type="text"],textarea, select{
 	width: 100%;
 	padding:15px 10px; 
 	margin-bottom: 20px;
