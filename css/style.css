@@ -201,11 +201,11 @@ footer p{
 	.top-bar{
 		flex-direction: column;
 		text-align: center;
-		padding:10px 0;
+		padding:15px 0 0 0;
 	}
 	.main-logo{
 		border-bottom: 3px solid #fff;
-		margin-bottom: 10px;
+		
 	}
 	
 
@@ -216,8 +216,13 @@ footer p{
 	}
 	.main-menu li{
 
-		margin: 20px 0;
-		padding: 5px;
+	
+		
+
+	}
+	.main-menu a{
+		display: block;
+		border-radius:0;
 	}
 	.banner-text-items{
 		padding: 10px;
